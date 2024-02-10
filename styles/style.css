@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #d4cacd;
+    font-size: 0px;
+    text-align: center;
+}
+
+section {
+    padding: 30px 0;
+    max-width: 1240px;
+    margin: 0 auto;
+    font-size: 20px;
+}
+
+h1,
+h2 {
+    color: #5B0888;
+    font-size: 25px;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+li {
+    list-style-type: none;
+}
+
+.abot-me__description {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.abot-me__text {
+    padding: 50px 0;
+    max-width: 250px;
+}
+
+.abot-me img {
+    max-width: 150px;
+    border-radius: 150px;
+}
+
+.hobbies__description {
+    max-width: 650px;
+    margin: 0 auto;
+}
+
+.hobbies h2 {
+    margin: 30px 0;
+}
+
+.book {
+    display: flex;
+    padding: 20px 0;
+    justify-content: center;
+}
+
+.book-item {
+    display: flex;
+    flex-direction: column;
+    max-width: 200px;
+}
+
+.book-item__name {
+    padding-bottom: 20px;
+}
+
+.book-item img {
+    max-width: 80px;
+}
+
+.my-socials {
+    background-color: #FCFFE7;
+    border: 2px dashed #713ABE;
+    max-width: 500px;
+}
+
+.socials__item:not(:last-child) {
+    margin-top: 20px;
+}
